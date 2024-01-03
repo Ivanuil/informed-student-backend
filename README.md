@@ -5,7 +5,7 @@
 Проект реализован в рамках академии бэкенда Tinkoff. Представляет собой сервис для студентов позволяющий делится 
 учебными материалами, обсуждать их, а также узнавать новости учебного заведения.
 
-Фронтенд: 
+Фронтенд: [GitHub](https://github.com/Ivanuil/informed-student-frontend)
 
 ### Stack
 
@@ -22,24 +22,24 @@
 ### Screenshots
 
 Стартовая страница сервиса, авторизация реализована с помощью:
-<img alt="welcome_page" src="misc/welcome_page.jpg" width="720"/>
+<img alt="welcome_page" src="misc/welcome_page.jpg" width="720"/><br>
 Авторизация реализована с помощью Spring Security. Существует 3 роли пользователей: Administrator, Moderator, User;
 подробнее о ролях в разделе [Roles](#Roles)
 
-<img alt="main_page" src="misc/main_page.jpg" width="720"/>
+<img alt="main_page" src="misc/main_page.jpg" width="720"/><br>
 Посты принадлежат одной из категорий и предмету. Предметы относятся к одному из курсов (1-6).
 
-<img alt="post_and_comments_example" src="misc/post_and_comments_example.jpg" width="720"/>
+<img alt="post_and_comments_example" src="misc/post_and_comments_example.jpg" width="720"/><br>
 Есть возможность оставлять анонимные комментарии, удалять комментарии и посты может автор или администратор.
 
-<img alt="user_info_page" src="misc/user_info_page.jpg" width="720"/>
+<img alt="user_info_page" src="misc/user_info_page.jpg" width="720"/><br>
 У каждого пользователя есть небольшая публичная страница с личной информацией.
 
-<img alt="comments_cleanup" src="misc/admin_panel_comments_cleanup.jpg" width="720"/>
+<img alt="comments_cleanup" src="misc/admin_panel_comments_cleanup.jpg" width="720"/><br>
 У администратора есть панель управления регулярно выполняемыми задачами через соответсвующую панель.
 Для регулярных задач использован Quartz.
 
-<img alt="users_list" src="misc/admin_panel_users_list.jpg" width="720"/>
+<img alt="users_list" src="misc/admin_panel_users_list.jpg" width="720"/><br>
 Администратор может просмотреть список всех пользователей сервиса и забанить любого пользователя.
 Забаненный пользователь не может зайти на сервис или зарегистрироваться под теми же реквизитами.
 
